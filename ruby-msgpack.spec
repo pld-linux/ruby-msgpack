@@ -5,13 +5,13 @@
 %define pkgname msgpack
 Summary:	MessagePack, a binary-based efficient data interchange format
 Name:		ruby-%{pkgname}
-Version:	0.5.11
+Version:	1.0.0
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages
 Source0:	https://rubygems.org/gems/%{pkgname}-%{version}.gem
-# Source0-md5:	7289b86b6fabf77809d89721a515688a
-URL:		https://msgpack.org/
+# Source0-md5:	cb36a1d48c87edc83158fca092145229
+URL:		https://github.com/msgpack/msgpack-ruby
 BuildRequires:	gmp-devel
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.665

@@ -12,8 +12,10 @@ Group:		Development/Languages
 Source0:	https://rubygems.org/gems/%{pkgname}-%{version}.gem
 # Source0-md5:	7289b86b6fabf77809d89721a515688a
 URL:		https://msgpack.org/
+BuildRequires:	gmp-devel
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.665
+BuildRequires:	ruby-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

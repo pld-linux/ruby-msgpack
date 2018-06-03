@@ -6,7 +6,7 @@
 Summary:	MessagePack, a binary-based efficient data interchange format
 Name:		ruby-%{pkgname}
 Version:	1.0.0
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Development/Languages
 Source0:	https://rubygems.org/gems/%{pkgname}-%{version}.gem

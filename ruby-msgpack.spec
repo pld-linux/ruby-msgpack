@@ -27,9 +27,7 @@ JSON. But unlike JSON, it is very fast and small.
 Summary:	Documentation for %{name}
 Group:		Documentation
 Requires:	%{name} = %{version}-%{release}
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description doc
 Documentation for %{name}.
